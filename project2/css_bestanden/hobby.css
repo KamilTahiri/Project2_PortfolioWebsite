@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.hobby-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.hobby-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.afbeelding {
+    margin-right: 20px;
+}
+h1{
+    color: #0056b3 !important;
+    font-size: 36px;
+    margin-left: 20px;
+    text-align: center;
+}
+h2, h3, h4{
+    color: #007bff !important;
+    font-size: 26px;
+}
+h2, h3{
+    margin-right: 30px;
+}
+td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+ul{
+    list-style-type: none;
+}
+.border{
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
